@@ -1,297 +1,416 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>MENd - Walk and Talk for Men's Mental Health in Kensington, Chelsea, Hammersmith & Fulham</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="men's mental health walks Kensington, walk and talk Chelsea, mental health support Hammersmith, community Fulham, West London men's health">
-    <meta name="description" content="MENd: Community Interest Company offering walk and talk sessions for men's mental health in Kensington & Chelsea, Hammersmith & Fulham. Free supportive walks to break the silence on suicide, depression, and isolation. Join us today.">
-    <link href="img/favicon.ico" rel="icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <head>
+    <title>MENd - Men's Mental Health Walk and Talk | www.mend.me.uk</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/tailwind/tailwind.min.css"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="mend-favicon.png"/>
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.3/dist/cdn.min.js" defer="defer"></script>
     <style>
-        :root { --bs-primary: #fd7e14; --bs-primary-rgb: 253,126,20; --bs-secondary: #6c757d; --bs-secondary-rgb: 108,117,125; }
-        .bg-primary { background-color: var(--bs-primary) !important; }
-        .text-primary { color: var(--bs-primary) !important; }
-        .btn-primary { background-color: var(--bs-primary); border-color: var(--bs-primary); }
-        .btn-primary:hover { background-color: #e9730c; border-color: #e9730c; }
-        .fact { background-color: var(--bs-secondary) !important; }
-        .footer { background-color: #495057 !important; }
-        .bg-light { background-color: #f8f9fa !important; }
-        .video { background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('img/video-bg.jpg'); background-size: cover; background-position: center; color: white; padding: 100px 0; text-align: center; }
+      @keyframes floatIn {
+        0% { opacity: 0; transform: translateY(20px); }
+        100% { opacity: 1; transform: translateY(0); }
+      }
+      .float-in {
+        animation: floatIn 1s ease-out forwards;
+      }
     </style>
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "MENd",
-      "image": "https://www.mendwalks.org/img/logo.jpg",
-      "description": "Community Interest Company providing walk and talk sessions for men's mental health.",
-      "telephone": "0207 123 4567",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Bishops Park, Fulham",
-        "addressLocality": "London",
-        "postalCode": "SW6 3JY",
-        "addressCountry": "GB"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 51.475,
-        "longitude": -0.225
-      },
-      "url": "https://www.mendwalks.org",
-      "sameAs": ["https://facebook.com/mendwalks", "https://twitter.com/mendwalks"]
-    }
-    </script>
-</head>
-<body>
-    <!-- Topbar Start -->
-    <div class="container-fluid bg-light d-none d-lg-block">
-        <div class="row align-items-center top-bar">
-            <div class="col-lg-3 col-md-12 text-center text-lg-start">
-                <a href="#" class="navbar-brand m-0 p-0">
-                    <h2 class="text-primary m-0">MENd</h2>
-                </a>
+  </head>
+  <body class="antialiased bg-body text-body font-body">
+    <div>
+      <div>
+        <p class="mb-0 py-3 bg-pastel-lime text-center" style="background-color: #D4F4C4;">MENd: One-on-one walk and talks in West London parks for any man. Visit <a href="https://www.mend.me.uk">www.mend.me.uk</a></p>
+      </div>
+      <div>
+        <section class="relative bg-pastel-teal" style="background-color: #E6F3F3;">
+          <img class="absolute top-0 left-0 w-full h-full object-cover" src="mend-bg-waves.png" alt="Background waves"/>
+          <div class="relative pt-18 pb-24 sm:pb-32 lg:pt-36 lg:pb-62">
+            <div class="container mx-auto px-4 relative">
+              <div class="max-w-lg xl:max-w-xl mx-auto text-center">
+                <h1 class="font-heading text-5xl xs:text-7xl xl:text-8xl tracking-tight text-teal-900 mb-8 float-in" style="color: #022C22;">MENd: Walk and Talk for Men's Mental Health</h1>
+                <p class="max-w-md xl:max-w-none text-lg text-teal-900 opacity-80 mb-8 float-in" style="color: #022C22; animation-delay: 0.2s;">A Community Interest Company (CIC) in West London (Hammersmith & Fulham, Kensington & Chelsea) offering free one-on-one walk and talk sessions in local parks. For any man—abuse, loss, addiction, or just need a rant and coffee. Led by men who’ve been there, because talking saved my life.</p>
+                <a class="inline-flex py-4 px-6 items-center justify-center text-lg font-medium text-teal-900 border border-pastel-lime hover:border-white bg-pastel-lime hover:bg-white rounded-full transition duration-200" href="#contact" style="background-color: #D4F4C4; color: #022C22;">Book Your Free Session</a>
+              </div>
             </div>
-            <div class="col-lg-9 col-md-12 text-end">
-                <div class="h-100 d-inline-flex align-items-center me-4">
-                    <i class="fa fa-map-marker-alt text-primary me-2"></i>
-                    <p class="m-0">Bishops Park, London SW6 3JY</p>
-                </div>
-                <div class="h-100 d-inline-flex align-items-center me-4">
-                    <i class="far fa-envelope-open text-primary me-2"></i>
-                    <p class="m-0">info@mendwalks.org</p>
-                </div>
-                <div class="h-100 d-inline-flex align-items-center">
-                    <a class="btn btn-sm-square bg-white text-primary me-1" href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-sm-square bg-white text-primary me-1" href="#"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-sm-square bg-white text-primary me-1" href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-sm-square bg-white text-primary me-0" href="#"><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
+          </div>
+        </section>
+      </div>
+      <section class="py-12 lg:py-24 bg-pastel-teal text-teal-900" style="background-color: #D1E8E2; color: #022C22;">
+        <div class="container mx-auto px-4">
+          <h2 class="font-heading text-4xl sm:text-5xl text-center mb-12" style="font-family: Roboto, sans-serif;">About Me: Why I Started MENd</h2>
+          <div class="max-w-4xl mx-auto p-8 bg-white rounded-2xl shadow-md">
+            <p class="text-lg leading-relaxed" style="font-family: Roboto, sans-serif; font-size: 18px;">
+              I’m the founder of MENd, and this is just the beginning—it’s just me for now, but I’m looking for other men to join as peer leaders. My life hasn’t been easy: I survived childhood abuse, got kicked out of schools, nearly died in a bike crash, and cared for my father until he passed. I served time in prison, battled drug and alcohol addiction, struggled with toxic relationships, and even attempted suicide. Therapy helped, but what truly saved me was real, raw conversations—talking with someone who got it. That’s why I started MENd: to walk shoulder-to-shoulder with men in West London parks, no judgment, no stigma. Whether you’re dealing with trauma, grief, or just need to vent over a coffee, I’m here. Let’s walk, talk, and heal together.
+            </p>
+          </div>
         </div>
-    </div>
-    <!-- Topbar End -->
-    <!-- Navbar Start -->
-    <div class="container-fluid nav-bar bg-light">
-        <nav class="navbar navbar-expand-lg navbar-light bg-white p-3 py-lg-0 px-lg-4">
-            <a href="#" class="navbar-brand d-flex align-items-center m-0 p-0 d-lg-none">
-                <h1 class="text-primary m-0">MENd</h1>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                <span class="fa fa-bars"></span>
+      </section>
+      <section class="py-12 lg:py-24 bg-pastel-gray" style="background-color: #F5F5F5;">
+        <div class="container mx-auto px-4">
+          <h2 class="font-heading text-4xl sm:text-5xl text-center mb-12" style="color: #022C22;">The Crisis in Men's Mental Health</h2>
+          <div class="flex flex-wrap -mx-4">
+            <div class="w-full sm:w-1/2 md:w-1/4 px-4 mb-10 md:mb-0">
+              <div class="text-center">
+                <h5 class="text-2xl xs:text-3xl lg:text-4xl xl:text-5xl mb-4" style="color: #022C22;">75%</h5>
+                <span class="text-base lg:text-lg text-gray-700">of UK suicides are men (ONS, 2024)</span>
+              </div>
+            </div>
+            <div class="w-full sm:w-1/2 md:w-1/4 px-4 mb-10 md:mb-0">
+              <div class="text-center">
+                <h5 class="text-2xl xs:text-3xl lg:text-4xl xl:text-5xl mb-4" style="color: #022C22;">17.4 per 100k</h5>
+                <span class="text-base lg:text-lg text-gray-700">male suicide rate in England & Wales (ONS, 2024)</span>
+              </div>
+            </div>
+            <div class="w-full sm:w-1/2 md:w-1/4 px-4 mb-10 sm:mb-0">
+              <div class="text-center">
+                <h5 class="text-2xl xs:text-3xl lg:text-4xl xl:text-5xl mb-4" style="color: #022C22;">12.5%</h5>
+                <span class="text-base lg:text-lg text-gray-700">of UK men have a common mental disorder (NHS Digital)</span>
+              </div>
+            </div>
+            <div class="w-full sm:w-1/2 md:w-1/4 px-4">
+              <div class="text-center">
+                <h5 class="text-2xl xs:text-3xl lg:text-4xl xl:text-5xl mb-4" style="color: #022C22;">3x</h5>
+                <span class="text-base lg:text-lg text-gray-700">more likely to be alcohol dependent (HSCIC)</span>
+              </div>
+            </div>
+            <div class="w-full sm:w-1/2 md:w-1/4 px-4 mt-10">
+              <div class="text-center">
+                <h5 class="text-2xl xs:text-3xl lg:text-4xl xl:text-5xl mb-4" style="color: #022C22;">1 in 8</h5>
+                <span class="text-base lg:text-lg text-gray-700">men have a mental health problem (Mental Health Foundation, 2024)</span>
+              </div>
+            </div>
+            <div class="w-full sm:w-1/2 md:w-1/4 px-4 mt-10">
+              <div class="text-center">
+                <h5 class="text-2xl xs:text-3xl lg:text-4xl xl:text-5xl mb-4" style="color: #022C22;">36%</h5>
+                <span class="text-base lg:text-lg text-gray-700">of men seek professional help (Mental Health Foundation, 2024)</span>
+              </div>
+            </div>
+            <div class="w-full sm:w-1/2 md:w-1/4 px-4 mt-10">
+              <div class="text-center">
+                <h5 class="text-2xl xs:text-3xl lg:text-4xl xl:text-5xl mb-4" style="color: #022C22;">#1</h5>
+                <span class="text-base lg:text-lg text-gray-700">cause of death for men under 50 is suicide (ONS, 2024)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="p-4 bg-white">
+        <div class="pt-16 pb-24 px-5 xs:px-8 xl:px-12 bg-pastel-lime rounded-3xl" style="background-color: #D4F4C4;">
+          <div class="container mx-auto px-4">
+            <div class="flex mb-4 items-center">
+              <svg width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="4" cy="4" r="4" fill="#022C22"></circle>
+              </svg><span class="inline-block ml-2 text-sm font-medium" style="color: #022C22;">Our Support</span>
+            </div>
+            <div class="border-t border-teal-900 border-opacity-25 pt-14">
+              <h1 class="font-heading text-4xl sm:text-6xl mb-24" style="color: #022C22;">One-on-One Walk and Talks: Healing Through Steps</h1>
+              <div class="flex flex-wrap -mx-4">
+                <div class="w-full sm:w-1/2 px-4 mb-16">
+                  <div>
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 8C0 3.58172 3.58172 0 8 0H40C44.4183 0 48 3.58172 48 8V40C48 44.4183 44.4183 48 40 48H8C3.58172 48 0 44.4183 0 40V8Z" fill="white"></path>
+                      <circle cx="16" cy="16" r="4" fill="#022C22"></circle>
+                      <circle cx="24" cy="32" r="4" fill="#022C22"></circle>
+                      <circle cx="32" cy="16" r="4" fill="#022C22"></circle>
+                    </svg>
+                    <div class="mt-6">
+                      <h5 class="text-2xl font-medium mb-3" style="color: #022C22;">Private Park Walks</h5>
+                      <p class="mb-6" style="color: #022C22;">One-on-one sessions in West London parks (Hammersmith & Fulham, Kensington & Chelsea). Open to any man—whether facing trauma, grief, or just needing a rant. Shoulder-to-shoulder talking reduces stigma and boosts endorphins by 50% vs. indoor therapy.</p>
+                      <a class="inline-block text-lg font-medium hover:text-teal-700" href="#contact" style="color: #022C22;">Book Now</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-full sm:w-1/2 px-4 mb-16">
+                  <div>
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 8C0 3.58172 3.58172 0 8 0H40C44.4183 0 48 3.58172 48 8V40C48 44.4183 44.4183 48 40 48H8C3.58172 48 0 44.4183 0 40V8Z" fill="white"></path>
+                      <rect x="23" y="8" width="2" height="12" rx="1" fill="#022C22"></rect>
+                      <rect x="23" y="28" width="2" height="12" rx="1" fill="#022C22"></rect>
+                      <rect x="34.6066" y="11.9792" width="2" height="12" rx="1" transform="rotate(45 34.6066 11.9792)" fill="#022C22"></rect>
+                      <rect x="20.4645" y="26.1213" width="2" height="12" rx="1" transform="rotate(45 20.4645 26.1213)" fill="#022C22"></rect>
+                      <rect x="28" y="25" width="2" height="12" rx="1" transform="rotate(-90 28 25)" fill="#022C22"></rect>
+                      <rect x="8" y="25" width="2" height="12" rx="1" transform="rotate(-90 8 25)" fill="#022C22"></rect>
+                      <rect x="26.1213" y="27.5355" width="2" height="12" rx="1" transform="rotate(-45 26.1213 27.5355)" fill="#022C22"></rect>
+                      <rect x="11.9792" y="13.3934" width="2" height="12" rx="1" transform="rotate(-45 11.9792 13.3934)" fill="#022C22"></rect>
+                    </svg>
+                    <div class="mt-6">
+                      <h5 class="text-2xl font-medium mb-3" style="color: #022C22;">Peer-Led Support</h5>
+                      <p class="mb-6" style="color: #022C22;">Led by men who’ve faced abuse, addiction, loss, or suicide attempts—like me. 40% of men never talk about mental health; our walks break that silence, with nature calming stress.</p>
+                      <a class="inline-block text-lg font-medium hover:text-teal-700" href="#contact" style="color: #022C22;">Learn More</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-full sm:w-1/2 px-4 mb-16 sm:mb-0">
+                  <div>
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 8C0 3.58172 3.58172 0 8 0H40C44.4183 0 48 3.58172 48 8V40C48 44.4183 44.4183 48 40 48H8C3.58172 48 0 44.4183 0 40V8Z" fill="white"></path>
+                      <path d="M25 24C25 24.5523 24.5523 25 24 25C23.4477 25 23 24.5523 23 24C23 23.4477 23 23.4477 23 24C23.4477 23 24 23C24.5523 23 25 23.4477 25 24Z" fill="#022C22"></path>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M24 25C24.5523 25 25 24.5523 25 24C25 23.4477 24.5523 23 24 23C23.4477 23 23 23.4477 23 24C23 24.5523 23.4477 25 24 25Z" fill="#022C22"></path>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M40 23C40.5523 23 41 23.4477 41 24C41 33.3888 33.3888 41 24 41C23.4477 41 23 40.5523 23 40C23 39.4477 23.4477 39 24 39C32.2843 39 39 32.2843 39 24C39 23.4477 39.4477 23 40 23Z" fill="#022C22"></path>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M24 9C15.7157 9 9 15.7157 9 24C9 24.5523 8.55228 25 8 25C7.44772 25 7 24.5523 7 24C7 14.6112 14.6112 7 24 7C24.5523 7 25 7.44772 25 8C25 8.55228 24.5523 9 24 9Z" fill="#022C22"></path>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M36 23C36.5523 23 37 23.4477 37 24C37 31.1797 31.1797 37 24 37C23.4477 37 23 36.5523 23 36C23 35.4477 23.4477 35 24 35C30.0751 35 35 30.0751 35 24C35 23.4477 35.4477 23 36 23Z" fill="#022C22"></path>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M24 13C17.9249 13 13 17.9249 13 24C13 24.5523 12.5523 25 12 25C11.4477 25 11 24.5523 11 24C11 16.8203 16.8203 11 24 11C24.5523 11 25 11.4477 25 12C25 12.5523 25 12 24 13Z" fill="#022C22"></path>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M32 23C32.5523 23 33 23.4477 33 24C33 28.9706 28.9706 33 24 33C23.4477 33 23 32.5523 23 32C23 31.4477 23.4477 31 24 31C27.866 31 31 27.866 31 24C31 23.4477 31.4477 23 32 23Z" fill="#022C22"></path>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M24 17C20.134 17 17 20.134 17 24C17 24.5523 16.5523 25 16 25C15.4477 25 15 24.5523 15 24C15 19.0294 19.0294 15 24 15C24.5523 15 25 15.4477 25 16C25 16.5523 24.5523 17 24 17Z" fill="#022C22"></path>
+                    </svg>
+                    <div class="mt-6">
+                      <h5 class="text-2xl font-medium mb-3" style="color: #022C22;">Nature's Calm</h5>
+                      <p class="mb-6" style="color: #022C22;">Parks provide grounding—walking cuts depression symptoms by 30% and helps process trauma or stress without eye-contact pressure.</p>
+                      <a class="inline-block text-lg font-medium hover:text-teal-700" href="#contact" style="color: #022C22;">Learn More</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-full sm:w-1/2 px-4">
+                  <div>
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 8C0 3.58172 3.58172 0 8 0H40C44.4183 0 48 3.58172 48 8V40C48 44.4183 44.4183 48 40 48H8C3.58172 48 0 44.4183 0 40V8Z" fill="white"></path>
+                      <path d="M23.8425 12.3779C23.9008 12.238 24.0992 12.238 24.1575 12.3779L30.1538 26.7692C31.9835 31.1605 28.7572 36 24 36Lnan nanL24 36C19.2428 36 16.0165 31.1605 17.8462 26.7692L23.8425 12.3779Z" fill="#022C22"></path>
+                    </svg>
+                    <div class="mt-6">
+                      <h5 class="text-2xl font-medium mb-3" style="color: #022C22;">Starting Small, Growing Strong</h5>
+                      <p class="mb-6" style="color: #022C22;">As a new CIC, we're one-on-one for now—free, confidential, peer-led. Men die 3x more by suicide due to silence; join us for a walk, a rant, or a coffee.</p>
+                      <a class="inline-block text-lg font-medium hover:text-teal-700" href="#contact" style="color: #022C22;">Volunteer with Us</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-12 lg:py-24 overflow-hidden bg-pastel-gray" style="background-color: #F5F5F5;">
+        <div class="container mx-auto px-4">
+          <div class="max-w-6xl mx-auto mb-24 text-center">
+            <h1 class="font-heading text-4xl sm:text-6xl md:text-7xl tracking-sm mb-16" style="color: #022C22;">In West London, 1 in 8 men face mental health challenges—talking in the park changes that. Join MENd to break the silence.</h1>
+            <a class="inline-flex py-4 px-6 items-center justify-center text-lg font-medium text-white hover:text-teal-900 border border-teal-900 hover:border-pastel-lime bg-teal-900 hover:bg-pastel-lime rounded-full transition duration-200" href="#contact" style="background-color: #022C22; border-color: #022C22; hover:background-color: #D4F4C4;">Get in Touch</a>
+          </div>
+          <div class="flex justify-center flex-wrap">
+            <div class="flex-shrink-0 h-full max-w-xs sm:max-w-md md:max-w-xl mr-4 sm:mr-8">
+              <img class="block w-full rounded-lg shadow-md" src="mend-park1.png" alt="West London park 1"/>
+            </div>
+            <div class="flex-shrink-0 h-full max-w-xs sm:max-w-md md:max-w-xl mr-4 sm:mr-8">
+              <img class="block w-full rounded-lg shadow-md" src="mend-park2.png" alt="West London park 2"/>
+            </div>
+            <div class="flex-shrink-0 h-full max-w-xs sm:max-w-md md:max-w-xl mr-4 sm:mr-8">
+              <img class="block w-full rounded-lg shadow-md" src="mend-park3.png" alt="West London park 3"/>
+            </div>
+            <div class="flex-shrink-0 h-full max-w-xs sm:max-w-md md:max-w-xl mr-4 sm:mr-8">
+              <img class="block w-full rounded-lg shadow-md" src="mend-park4.png" alt="West London park 4"/>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-12 lg:py-24 bg-pastel-green" style="background-color: #E6F4E8;" id="contact">
+        <div class="container mx-auto px-4">
+          <div class="text-center mb-20">
+            <h1 class="font-heading text-4xl sm:text-6xl mb-6" style="color: #022C22;">Contact Us</h1>
+            <p class="text-gray-700">Reach out to book a walk, volunteer, or support MENd. We're here for any man in West London.</p>
+          </div>
+          <div class="max-w-lg mx-auto">
+            <div class="mb-6">
+              <label class="block mb-2 text-lg font-medium" for="name" style="color: #022C22;">Name</label>
+              <input class="w-full p-3 rounded-full border border-gray-300 focus:ring-2 focus:ring-pastel-lime" type="text" id="name" placeholder="Your name" style="background-color: #FFFFFF;"/>
+            </div>
+            <div class="mb-6">
+              <label class="block mb-2 text-lg font-medium" for="email" style="color: #022C22;">Email</label>
+              <input class="w-full p-3 rounded-full border border-gray-300 focus:ring-2 focus:ring-pastel-lime" type="email" id="email" placeholder="Your email" style="background-color: #FFFFFF;"/>
+            </div>
+            <div class="mb-6">
+              <label class="block mb-2 text-lg font-medium" for="message" style="color: #022C22;">Message</label>
+              <textarea class="w-full p-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-pastel-lime" id="message" rows="5" placeholder="Tell us why you'd like to walk, volunteer, or support..." style="background-color: #FFFFFF;"></textarea>
+            </div>
+            <button class="w-full py-4 px-6 text-lg font-medium text-teal-900 border border-pastel-lime hover:border-white bg-pastel-lime hover:bg-white rounded-full transition duration-200" onclick="sendEmail()" style="background-color: #D4F4C4; color: #022C22;">Send Message</button>
+            <a class="inline-flex w-full mt-4 py-4 px-6 items-center justify-center text-lg font-medium text-white border border-teal-900 hover:border-pastel-lime bg-teal-900 hover:bg-pastel-lime rounded-full transition duration-200" href="#" style="background-color: #022C22; border-color: #022C22; hover:background-color: #D4F4C4;">Donate to MENd</a>
+          </div>
+          <script>
+            function sendEmail() {
+              const name = document.getElementById('name').value;
+              const email = document.getElementById('email').value;
+              const message = document.getElementById('message').value;
+              const subject = encodeURIComponent('MENd Walk and Talk Inquiry');
+              const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\nMessage: ${message}`);
+              window.location.href = `mailto:info@mend.me.uk?subject=${subject}&body=${body}`;
+            }
+          </script>
+        </div>
+      </section>
+      <section class="py-12 lg:py-24">
+        <div class="container mx-auto px-4">
+          <div class="text-center mb-20">
+            <h1 class="font-heading text-6xl mb-6" style="color: #022C22;">FAQ</h1>
+            <p class="text-gray-700">Common questions about MENd's one-on-one walk and talks in West London.</p>
+          </div>
+          <div class="max-w-4xl mx-auto">
+            <button class="flex w-full py-6 px-8 mb-4 items-start justify-between text-left shadow-md rounded-2xl" x-data="{ accordion: false }" x-on:click.prevent="accordion = !accordion">
+              <div>
+                <div class="pr-5">
+                  <h5 class="text-lg font-medium" style="color: #022C22;">What is MENd and how does it work?</h5>
+                </div>
+                <div class="overflow-hidden h-0 pr-5 duration-500" x-ref="container" :style="accordion ? 'height: ' + $refs.container.scrollHeight + 'px' : ''">
+                  <p class="text-gray-700 mt-4">MENd is a new Community Interest Company offering free one-on-one walk and talk sessions in West London parks for any man—abuse, addiction, loss, or just a rant. We walk shoulder-to-shoulder—no couches, no stigma. Sessions last 45-60 mins, led by peers who've been there.</p>
+                </div>
+              </div><span class="flex-shrink-0">
+                <div :class="{'hidden': accordion}">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 5.69995V18.3" stroke="#022C22" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M5.69995 12H18.3" stroke="#022C22" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+                </div>
+                <div class="hidden" :class="{'hidden': !accordion}">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.69995 12H18.3" stroke="#022C22" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+                </div></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav me-auto">
-                    <a href="#home" class="nav-item nav-link active">Home</a>
-                    <a href="#about" class="nav-item nav-link">About</a>
-                    <a href="#walks" class="nav-item nav-link">Walks</a>
-                    <a href="#contact" class="nav-item nav-link">Contact</a>
+            <button class="flex w-full py-6 px-8 mb-4 items-start justify-between text-left shadow-md rounded-2xl" x-data="{ accordion: false }" x-on:click.prevent="accordion = !accordion">
+              <div>
+                <div class="pr-5">
+                  <h5 class="text-lg font-medium" style="color: #022C22;">Why one-on-one walks? What's the benefit?</h5>
                 </div>
-                <div class="mt-4 mt-lg-0 me-lg-n4 py-3 px-4 bg-primary d-flex align-items-center">
-                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 45px; height: 45px;">
-                        <i class="fa fa-phone-alt text-primary"></i>
-                    </div>
-                    <div class="ms-3">
-                        <p class="mb-1 text-white">Contact Us</p>
-                        <h5 class="m-0 text-secondary">0207 123 4567</h5>
-                    </div>
+                <div class="overflow-hidden h-0 pr-5 duration-500" x-ref="container" :style="accordion ? 'height: ' + $refs.container.scrollHeight + 'px' : ''">
+                  <p class="text-gray-700 mt-4">Walking outdoors reduces anxiety by 30%, boosts mood via endorphins, and makes talking easier—perfect for men (only 36% seek therapy). It’s peer-led for any issue or just a coffee and vent.</p>
                 </div>
-            </div>
-        </nav>
-    </div>
-    <!-- Navbar End -->
-    <!-- Carousel Start -->
-    <div class="container-fluid p-0 mb-5">
-        <div id="header-carousel" class="carousel slide carousel-fade position-relative" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item position-relative">
-                    <img class="img-fluid w-100" src="img/carousel-1.jpg" alt="Group of men walking in park">
-                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .4);">
-                        <div class="container">
-                            <div class="row justify-content-start">
-                                <div class="col-12 col-lg-8">
-                                    <h5 class="text-white text-uppercase mb-3">Supportive Walks for Men's Mental Health</h5>
-                                    <h1 class="display-3 text-white mb-4">Kensington, Chelsea, Hammersmith & Fulham</h1>
-                                    <p class="fs-5 fw-medium text-white mb-4 pb-2">Join MENd for free walk and talk sessions tackling men's mental health. From suicide prevention to depression support, our community builds strength through open conversations in West London parks. A safe space for men who've suffered to support those suffering.</p>
-                                    <a href="tel:02071234567" class="btn btn-primary py-md-3 px-md-5 me-3">Join a Walk Now</a>
-                                    <a href="#enquiry-form" class="btn btn-secondary py-md-3 px-md-5">Get Involved</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+              </div><span class="flex-shrink-0">
+                <div :class="{'hidden': accordion}">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 5.69995V18.3" stroke="#022C22" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M5.69995 12H18.3" stroke="#022C22" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
                 </div>
-                <div class="carousel-item position-relative">
-                    <img class="img-fluid w-100" src="img/carousel-2.jpg" alt="Men talking while walking">
-                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .4);">
-                        <div class="container">
-                            <div class="row justify-content-start">
-                                <div class="col-12 col-lg-8">
-                                    <h5 class="text-white text-uppercase mb-3">Community Walks for Mental Wellbeing</h5>
-                                    <h1 class="display-3 text-white mb-4">Breaking the Silence on Men's Mental Health</h1>
-                                    <p class="fs-5 fw-medium text-white mb-4 pb-2">MENd offers peer-led walks to combat isolation, reduce stigma, and foster resilience. Inspired by those who've overcome challenges, our sessions in local parks provide informal support, exercise, and connection for men in our community.</p>
-                                    <a href="tel:02071234567" class="btn btn-primary py-md-3 px-md-5 me-3">Contact Us</a>
-                                    <a href="#enquiry-form" class="btn btn-secondary py-md-3 px-md-5">Learn More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
+                <div class="hidden" :class="{'hidden': !accordion}">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.69995 12H18.3" stroke="#022C22" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+                </div></span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
+            <button class="flex w-full py-6 px-8 mb-4 items-start justify-between text-left shadow-md rounded-2xl" x-data="{ accordion: false }" x-on:click.prevent="accordion = !accordion">
+              <div>
+                <div class="pr-5">
+                  <h5 class="text-lg font-medium" style="color: #022C22;">Is it free and confidential?</h5>
+                </div>
+                <div class="overflow-hidden h-0 pr-5 duration-500" x-ref="container" :style="accordion ? 'height: ' + $refs.container.scrollHeight + 'px' : ''">
+                  <p class="text-gray-700 mt-4">Yes—100% free as a CIC. Fully confidential; we walk in parks but prioritize privacy. Any man from Hammersmith & Fulham or Kensington & Chelsea can join.</p>
+                </div>
+              </div><span class="flex-shrink-0">
+                <div :class="{'hidden': accordion}">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 5.69995V18.3" stroke="#022C22" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M5.69995 12H18.3" stroke="#022C22" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+                </div>
+                <div class="hidden" :class="{'hidden': !accordion}">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.69995 12H18.3" stroke="#022C22" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+                </div></span>
             </button>
+            <button class="flex w-full py-6 px-8 mb-4 items-start justify-between text-left shadow-md rounded-2xl" x-data="{ accordion: false }" x-on:click.prevent="accordion = !accordion">
+              <div>
+                <div class="pr-5">
+                  <h5 class="text-lg font-medium" style="color: #022C22;">How do I get involved—as a walker or leader?</h5>
+                </div>
+                <div class="overflow-hidden h-0 pr-5 duration-500" x-ref="container" :style="accordion ? 'height: ' + $refs.container.scrollHeight + 'px' : ''">
+                  <p class="text-gray-700 mt-4">Book a session or volunteer as a peer leader (if you’ve faced challenges). Use the contact form below—we’re building a network of West London men.</p>
+                </div>
+              </div><span class="flex-shrink-0">
+                <div :class="{'hidden': accordion}">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 5.69995V18.3" stroke="#022C22" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M5.69995 12H18.3" stroke="#022C22" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+                </div>
+                <div class="hidden" :class="{'hidden': !accordion}">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.69995 12H18.3" stroke="#022C22" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+                </div></span>
+            </button>
+            <button class="flex w-full py-6 px-8 mb-24 items-start justify-between text-left shadow-md rounded-2xl" x-data="{ accordion: false }" x-on:click.prevent="accordion = !accordion">
+              <div>
+                <div class="pr-5">
+                  <h5 class="text-lg font-medium" style="color: #022C22;">Why now? The crisis in men's mental health</h5>
+                </div>
+                <div class="overflow-hidden h-0 pr-5 duration-500" x-ref="container" :style="accordion ? 'height: ' + $refs.container.scrollHeight + 'px' : ''">
+                  <p class="text-gray-700 mt-4">UK men face a silent crisis: 75% of suicides, 3x alcohol dependency, only 36% seek therapy. Suicide is the top killer of men under 50. Our walks tackle it all.</p>
+                </div>
+              </div><span class="flex-shrink-0">
+                <div :class="{'hidden': accordion}">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 5.69995V18.3" stroke="#022C22" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M5.69995 12H18.3" stroke="#022C22" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+                </div>
+                <div class="hidden" :class="{'hidden': !accordion}">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.69995 12H18.3" stroke="#022C22" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+                </div></span>
+            </button>
+          </div>
         </div>
-    </div>
-    <!-- Carousel End -->
-    <!-- Service Start -->
-    <div class="container-xxl py-5" id="services">
-        <div class="container">
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6">
-                    <div class="overflow-hidden" style="height: 300px;">
-                        <img class="img-fluid w-100 h-100" src="img/service-1.jpg" alt="Men walking in group" style="object-fit: cover;">
-                    </div>
-                    <div class="d-flex align-items-center justify-content-between bg-light p-4">
-                        <h5 class="text-truncate me-3 mb-0">Suicide Prevention</h5>
-                        <a class="btn btn-square btn-outline-primary border-2 border-white flex-shrink-0" href="#"><i class="fa fa-arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="overflow-hidden" style="height: 300px;">
-                        <img class="img-fluid w-100 h-100" src="img/service-2.jpg" alt="Discussion group" style="object-fit: cover;">
-                    </div>
-                    <div class="d-flex align-items-center justify-content-between bg-light p-4">
-                        <h5 class="text-truncate me-3 mb-0">Depression Support</h5>
-                        <a class="btn btn-square btn-outline-primary border-2 border-white flex-shrink-0" href="#"><i class="fa fa-arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="overflow-hidden" style="height: 300px;">
-                        <img class="img-fluid w-100 h-100" src="img/service-3.jpg" alt="Walking in nature" style="object-fit: cover;">
-                    </div>
-                    <div class="d-flex align-items-center justify-content-between bg-light p-4">
-                        <h5 class="text-truncate me-3 mb-0">Benefits of Talking</h5>
-                        <a class="btn btn-square btn-outline-primary border-2 border-white flex-shrink-0" href="#"><i class="fa fa-arrow-right"></i></a>
-                    </div>
-                </div>
+      </section>
+      <section class="relative py-12 lg:py-24 bg-pastel-peach overflow-hidden" style="background-color: #FFF3E6;">
+        <img class="absolute bottom-0 left-0" src="mend-waves-footer.png" alt="Footer waves"/>
+        <div class="container px-4 mx-auto relative">
+          <div class="flex flex-wrap mb-16 -mx-4">
+            <div class="w-full lg:w-2/12 xl:w-2/12 px-4 mb-16 lg:mb-0">
+              <a class="inline-block mb-4" href="https://www.mend.me.uk">
+                <img src="mend-logo.svg" alt="MENd Logo"/>
+              </a>
             </div>
+            <div class="w-full md:w-7/12 lg:w-6/12 px-4 mb-16 lg:mb-0">
+              <div class="flex flex-wrap -mx-4">
+                <div class="w-full xs:w-1/3 px-4">
+                  <h3 class="mb-6 font-bold" style="color: #022C22;">Support MENd</h3>
+                  <ul>
+                    <li class="mb-4"><a class="inline-block text-gray-600 hover:text-pastel-lime font-medium" href="#contact" style="hover: #D4F4C4;">Book a Walk</a></li>
+                    <li class="mb-4"><a class="inline-block text-gray-600 hover:text-pastel-lime font-medium" href="#contact" style="hover: #D4F4C4;">Volunteer</a></li>
+                    <li><a class="inline-block text-gray-600 hover:text-pastel-lime font-medium" href="#" style="hover: #D4F4C4;">Donate</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="w-full md:w-5/12 lg:w-4/12 px-4">
+              <div class="max-w-sm p-8 bg-teal-900 rounded-2xl mx-auto md:mr-0" style="background-color: #022C22;">
+                <h5 class="text-xl font-medium text-white mb-4">Stay Connected with MENd</h5>
+                <p class="text-sm text-white opacity-80 leading-normal mb-10">Get updates on West London sessions, mental health tips, and volunteer opportunities. www.mend.me.uk</p>
+                <div class="flex flex-col">
+                  <input class="h-12 w-full px-4 py-1 placeholder-gray-700 outline-none ring-offset-0 focus:ring-2 focus:ring-pastel-lime rounded-full" type="email" placeholder="Your e-mail..." style="background-color: #FFFFFF;"/>
+                  <a class="h-12 inline-flex mt-3 py-1 px-5 items-center justify-center font-medium text-teal-900 border border-pastel-lime hover:border-white bg-pastel-lime hover:bg-white rounded-full transition duration-200" href="#contact" style="background-color: #D4F4C4; color: #022C22;">Subscribe</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-wrap -mb-3 justify-between">
+            <div class="flex items-center mb-3">
+              <a class="inline-block mr-4 text-black hover:text-pastel-lime" href="#!" style="hover: #D4F4C4;">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_230_4832)">
+                    <path d="M11.5481 19.9999V10.8776H14.6088L15.068 7.32147H11.5481V5.05138C11.5481 4.02211 11.8327 3.32067 13.3104 3.32067L15.1919 3.3199V0.139138C14.8665 0.0968538 13.7496 -9.15527e-05 12.4496 -9.15527e-05C9.735 -9.15527e-05 7.87654 1.65687 7.87654 4.69918V7.32147H4.80652V10.8776H7.87654V19.9999H11.5481Z" fill="currentColor"></path>
+                  </g>
+                </svg>
+              </a>
+              <a class="inline-block mr-4 text-black hover:text-pastel-lime" href="#!" style="hover: #D4F4C4;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7.8 2H16.2C19.4 2 22 4.6 22 7.8V16.2C22 17.7383 21.3889 19.2135 20.3012 20.3012C19.2135 21.3889 17.7383 22 16.2 22H7.8C4.6 22 2 19.4 2 16.2V7.8C2 6.26174 2.61107 4.78649 3.69878 3.69878C4.78649 2.61107 6.26174 2 7.8 2ZM7.6 4C6.64522 4 5.72955 4.37928 5.05442 5.05442C4.37928 5.72955 4 6.64522 4 7.6V16.4C4 18.39 5.61 20 7.6 20H16.4C17.3548 20 18.2705 19.6207 18.9456 18.9456C19.6207 18.2705 20 17.3548 20 16.4V7.6C20 5.61 18.39 4 16.4 4H7.6ZM17.25 5.5C17.5815 5.5 17.8995 5.6317 18.1339 5.86612C18.3683 6.10054 18.5 6.41848 18.5 6.75C18.5 7.08152 18.3683 7.39946 18.1339 7.63388C17.8995 7.8683 17.5815 8 17.25 8C16.9185 8 16.6005 7.8683 16.3661 7.63388C16.1317 7.39946 16 7.08152 16 6.75C16 6.41848 16.1317 6.10054 16.3661 5.86612C16.6005 5.6317 16.9185 5.5 17.25 5.5ZM12 7C13.3261 7 14.5979 7.52678 15.5355 8.46447C16.4732 9.40215 17 10.6739 17 12C17 13.3261 16.4732 14.5979 15.5355 15.5355C14.5979 16.4732 13.3261 17 12 17C10.6739 17 9.40215 16.4732 8.46447 15.5355C7.52678 14.5979 7 13.3261 7 12C7 10.6739 7.52678 9.40215 8.46447 8.46447C9.40215 7.52678 10.6739 7 12 7ZM12 9C11.2044 9 10.4413 9.31607 9.87868 9.87868C9.31607 10.4413 9 11.2044 9 12C9 12.7956 9.31607 13.5587 9.87868 14.1213C10.4413 14.6839 11.2044 15 12 15C12.7956 15 13.5587 14.6839 14.1213 14.1213C14.6839 13.5587 15 12.7956 15 12C15 11.2044 14.6839 10.4413 14.1213 9.87868C13.5587 9.31607 12.7956 9 12 9Z" fill="currentColor"></path>
+                </svg>
+              </a>
+              <a class="inline-block text-black hover:text-pastel-lime" href="#!" style="hover: #D4F4C4;">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M19 3C19.5304 3 20.0391 3.21071 20.4142 3.58579C20.7893 3.96086 21 4.46957 21 5V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V5C3 4.46957 3.21071 3.96086 3.58579 3.58579C3.96086 3.21071 4.46957 3 5 3H19ZM18.5 18.5V13.2C18.5 12.3354 18.1565 11.5062 17.5452 10.8948C16.9338 10.2835 16.1046 9.94 15.24 9.94C14.39 9.94 13.4 10.46 12.92 11.24V10.13H10.13V18.5H12.92V13.57C12.92 12.8 13.54 12.17 14.31 12.17C14.6813 12.17 15.0374 12.3175 15.2999 12.5801C15.5625 12.8426 15.71 13.1987 15.71 13.57V18.5H18.5ZM6.88 8.56C7.32556 8.56 7.75288 8.383 8.06794 8.06794C8.383 7.75288 8.56 7.32556 8.56 6.88C8.56 5.95 7.81 5.19 6.88 5.19C6.43178 5.19 6.00193 5.36805 5.68499 5.68499C5.36805 6.00193 5.19 6.43178 5.19 6.88C5.19 7.81 5.95 8.56 6.88 8.56ZM8.27 18.5V10.13H5.5V18.5H8.27Z" fill="currentColor"></path>
+                </svg>
+              </a>
+            </div>
+            <div class="text-center" style="color: #022C22;">© 2025 MENd CIC. All rights reserved. Serving West London: Hammersmith & Fulham, Kensington & Chelsea.</div>
+            <p class="text-sm text-gray-500 mb-3">A Community Interest Company for men's mental health.</p>
+          </div>
         </div>
+      </section>
     </div>
-    <!-- Service End -->
-    <!-- About Start -->
-    <div class="container-xxl py-5" id="about">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp">
-                    <h6 class="text-secondary text-uppercase">About Us</h6>
-                    <h1 class="mb-4">MENd: Supporting Men's Mental Health in Kensington & Chelsea, Hammersmith & Fulham</h1>
-                    <p class="mb-4">MENd is a Community Interest Company dedicated to men's mental health through free walk and talk sessions. Founded by a man who's faced his own struggles, we're creating a supportive community for men in Hammersmith and Fulham, Kensington and Chelsea. Our walks encourage open conversations on tough topics like suicide and depression, while enjoying fresh air and exercise. Currently a solo venture, we're growing one step at a time to break the silence and build resilience.</p>
-                    <p class="fw-medium text-primary"><i class="fa fa-check text-success me-3"></i>Peer-led walk and talk sessions</p>
-                    <p class="fw-medium text-primary"><i class="fa fa-check text-success me-3"></i>Free and confidential support</p>
-                    <p class="fw-medium text-primary"><i class="fa fa-check text-success me-3"></i>Weekly walks in local parks</p>
-                    <div class="bg-primary d-flex align-items-center p-4 mt-5">
-                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 60px; height: 60px;">
-                            <i class="fa fa-phone-alt fa-2x text-primary"></i>
-                        </div>
-                        <div class="ms-3">
-                            <p class="fs-5 fw-medium mb-2 text-white">Get Support</p>
-                            <h3 class="m-0 text-secondary">0207 123 4567</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/about-1.jpg" style="object-fit: cover; padding: 0 0 50px 100px;" alt="Founder walking">
-                        <img class="position-absolute start-0 bottom-0 img-fluid bg-white pt-2 pe-2 w-50 h-50" src="img/about-2.jpg" style="object-fit: cover;" alt="Group walk">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- About End -->
-    <!-- Fact Start -->
-    <div class="container-fluid fact my-5 py-5">
-        <div class="container">
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-3 text-center">
-                    <i class="fa fa-check fa-2x text-white mb-3"></i>
-                    <h2 class="text-white mb-2">Kensington</h2>
-                    <p class="text-white mb-0">Walk and talk sessions addressing men's suicide rates, with support for depression and isolation in Kensington.</p>
-                </div>
-                <div class="col-md-6 col-lg-3 text-center">
-                    <i class="fa fa-users-cog fa-2x text-white mb-3"></i>
-                    <h2 class="text-white mb-2">Chelsea</h2>
-                    <p class="text-white mb-0">Building community through conversations that reduce stigma and promote emotional wellbeing in Chelsea.</p>
-                </div>
-                <div class="col-md-6 col-lg-3 text-center">
-                    <i class="fa fa-users fa-2x text-white mb-3"></i>
-                    <h2 class="text-white mb-2">Hammersmith</h2>
-                    <p class="text-white mb-0">Peer support walks helping men recognize mental health symptoms early in Hammersmith.</p>
-                </div>
-                <div class="col-md-6 col-lg-3 text-center">
-                    <i class="fa fa-wrench fa-2x text-white mb-3"></i>
-                    <h2 class="text-white mb-2">Fulham</h2>
-                    <p class="text-white mb-0">Fostering resilience and connection via outdoor talks for men in Fulham, tackling loneliness head-on.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Fact End -->
-    <!-- Sessions Carousel Start -->
-    <div class="container-fluid py-5 px-4 px-lg-0" id="walks">
-        <div class="row g-0">
-            <div class="col-lg-3 d-none d-lg-flex">
-                <div class="d-flex align-items-center justify-content-center bg-primary w-100 h-100">
-                    <h1 class="display-3 text-white m-0" style="transform: rotate(-90deg);">one step at a time since 2025</h1>
-                </div>
-            </div>
-            <div class="col-md-12 col-lg-9">
-                <div class="ms-lg-5 ps-lg-5">
-                    <div class="text-center text-lg-start">
-                        <h6 class="text-secondary text-uppercase">Our Sessions</h6>
-                        <h1 class="mb-5">Walk and Talk Topics for Men's Mental Health in West London</h1>
-                    </div>
-                    <div id="service-carousel" class="owl-carousel service-carousel position-relative">
-                        <div class="bg-light p-4">
-                            <div class="d-flex align-items-center justify-content-center border border-5 border-white mb-4" style="width: 75px; height: 75px;">
-                                <i class="fa fa-heart fa-2x text-primary"></i>
-                            </div>
-                            <h4 class="mb-3">Suicide Awareness in Fulham</h4>
-                            <p>Men's suicide rate in the UK is 17.4 per 100,000, three times higher than women. Walks focus on prevention and support.</p>
-                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>75-80% of suicides are men</p>
-                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Highest rates in 45-49 age group</p>
-                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Early conversations save lives</p>
-                            <a href="#" class="btn bg-white text-primary w-100 mt-2">Learn More</a>
-                        </div>
-                        <div class="bg-light p-4">
-                            <div class="d-flex align-items-center justify-content-center border border-5 border-white mb-4" style="width: 75px; height: 75px;">
-                                <i class="fa fa-brain fa-2x text-primary"></i>
-                            </div>
-                            <h4 class="mb-3">Depression Support in Chelsea</h4>
-                            <p>One in eight men experience common mental health issues like depression. Sessions help break isolation.</p>
-                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Men less likely to seek help</p>
-                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>40% of men won't talk about it</p>
-                            <p class="text-primary fw-medium"><i class="fa fa-check text-success      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 51.475,
-        "longitude": -0.225
-      },
-      "url": "https://www.mendwalks.org",
-      "sameAs": ["https://facebook.com/mendwalks", "https://twitter.com/mendwalks"]
+  </body>
+</html>      "sameAs": ["https://facebook.com/yourpage", "https://twitter.com/yourhandle"]
     }
     </script>
 </head>
@@ -308,17 +427,17 @@
         <div class="row align-items-center top-bar">
             <div class="col-lg-3 col-md-12 text-center text-lg-start">
                 <a href="" class="navbar-brand m-0 p-0">
-                    <h2 class="text-primary m-0">MENd</h2>
+                    <h2 class="text-primary m-0">Chelsea Plumbers</h2>
                 </a>
             </div>
             <div class="col-lg-9 col-md-12 text-end">
                 <div class="h-100 d-inline-flex align-items-center me-4">
                     <i class="fa fa-map-marker-alt text-primary me-2"></i>
-                    <p class="m-0">Bishops Park, London SW6 3JY</p>
+                    <p class="m-0">33 Gunterstone Rd, London W14 9BP</p>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center me-4">
                     <i class="far fa-envelope-open text-primary me-2"></i>
-                    <p class="m-0">info@mendwalks.org</p>
+                    <p class="m-0">info@chelsea.biz</p>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center">
                     <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-facebook-f"></i></a>
@@ -334,7 +453,7 @@
     <div class="container-fluid nav-bar bg-light">
         <nav class="navbar navbar-expand-lg navbar-light bg-white p-3 py-lg-0 px-lg-4">
             <a href="" class="navbar-brand d-flex align-items-center m-0 p-0 d-lg-none">
-                <h1 class="text-primary m-0">MENd</h1>
+                <h1 class="text-primary m-0">Chelsea Plumbers</h1>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
@@ -343,7 +462,7 @@
                 <div class="navbar-nav me-auto">
                     <a href="index.html" class="nav-item nav-link active">Home</a>
                     <a href="about.html" class="nav-item nav-link">About</a>
-                    <a href="walks.html" class="nav-item nav-link">Walks</a>
+                    <a href="sla.html" class="nav-item nav-link">SLA Plans</a>
                     <a href="contact.html" class="nav-item nav-link">Contact</a>
                 </div>
                 <div class="mt-4 mt-lg-0 me-lg-n4 py-3 px-4 bg-primary d-flex align-items-center">
@@ -351,8 +470,8 @@
                         <i class="fa fa-phone-alt text-primary"></i>
                     </div>
                     <div class="ms-3">
-                        <p class="mb-1 text-white">Contact Us</p>
-                        <h5 class="m-0 text-secondary">0207 123 4567</h5>
+                        <p class="mb-1 text-white">Call us 24/7</p>
+                        <h5 class="m-0 text-secondary">0207 371 3333</h5>
                     </div>
                 </div>
             </div>
@@ -363,32 +482,32 @@
     <div class="container-fluid p-0 mb-5">
         <div class="owl-carousel header-carousel position-relative">
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/carousel-1.jpg" alt="Group of men walking in park">
+                <img class="img-fluid" src="img/carousel-1.jpg" alt="">
                 <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .4);">
                     <div class="container">
                         <div class="row justify-content-start">
                             <div class="col-10 col-lg-8">
-                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Supportive Walks for Men's Mental Health</h5>
+                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Expert Local Plumbers Servicing</h5>
                                 <h1 class="display-3 text-white animated slideInDown mb-4">Kensington, Chelsea, Hammersmith & Fulham</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Join MENd for free walk and talk sessions tackling men's mental health. From suicide prevention to depression support, our community builds strength through open conversations in West London parks. A safe space for men who've suffered to support those suffering.</p>
-                                <a href="tel:02071234567" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft" title="Join a Walk and Talk Session">Join a Walk Now</a>
-                                <a href="#enquiry-form" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight" title="Get Involved with MENd">Get Involved</a>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Reliable plumbing services in Kensington & Chelsea, Hammersmith & Fulham. From emergency plumber repairs to boiler installations and bathrooms/en-suite , our certified local plumbers deliver fast, affordable solutions 24/7. Trust us for all your plumbing needs in West London.</p>
+                                <a href="tel:02073713333" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft" title="Call Local Commercial Plumbers for Independent Retailers in Kensington, Chelsea, Hammersmith & Fulham">Call Local Commercial Plumbers Now</a>
+                                <a href="#quote-form" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight" title="Get a Free Quote for Commercial Plumbing Services for Independent Retailers">Free Commercial Plumbing Quote</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/carousel-2.jpg" alt="Men talking while walking">
+                <img class="img-fluid" src="img/carousel-2.jpg" alt="">
                 <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .4);">
                     <div class="container">
                         <div class="row justify-content-start">
                             <div class="col-10 col-lg-8">
-                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Community Walks for Mental Wellbeing</h5>
-                                <h1 class="display-3 text-white animated slideInDown mb-4">Breaking the Silence on Men's Mental Health</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-2">MENd offers peer-led walks to combat isolation, reduce stigma, and foster resilience. Inspired by those who've overcome challenges, our sessions in local parks provide informal support, exercise, and connection for men in our community.</p>
-                                <a href="tel:02071234567" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft" title="Contact MENd for Support">Contact Us</a>
-                                <a href="#enquiry-form" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight" title="Learn More About Our Walks">Learn More</a>
+                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Commercial Plumbing & Repair Services for Local Retailers</h5>
+                                <h1 class="display-3 text-white animated slideInDown mb-4">Efficient Commercial Plumbing Services for Independent Retailers</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Discover reliable commercial plumbing services tailored for local independent retailers. Our expert plumbers handle everything from emergency repairs and drain cleaning to water heater installations and leak detection, ensuring your retail store runs smoothly. Trust our licensed commercial plumbers for affordable, 24/7 solutions that minimize downtime for your business.</p>
+                                <a href="tel:02073713333" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft" title="Call Local Commercial Plumbers for Independent Retailers in Kensington, Chelsea, Hammersmith & Fulham">Call Local Commercial Plumbers Now</a>
+                                <a href="#quote-form" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight" title="Get a Free Quote for Commercial Plumbing Services for Independent Retailers">Free Commercial Plumbing Quote</a>
                             </div>
                         </div>
                     </div>
@@ -403,28 +522,28 @@
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 service-item-top wow fadeInUp" data-wow-delay="0.1s">
                     <div class="overflow-hidden" style="height: 300px !important;">
-                        <img class="img-fluid w-100 h-100" src="img/service-1.jpg" alt="Men walking in group" style="object-fit: cover !important;">
+                        <img class="img-fluid w-100 h-100" src="img/service-1.jpg" alt="" style="object-fit: cover !important;">
                     </div>
                     <div class="d-flex align-items-center justify-content-between bg-light p-4">
-                        <h5 class="text-truncate me-3 mb-0">Suicide Prevention</h5>
+                        <h5 class="text-truncate me-3 mb-0">Residential Plumbing</h5>
                         <a class="btn btn-square btn-outline-primary border-2 border-white flex-shrink-0" href=""><i class="fa fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 service-item-top wow fadeInUp" data-wow-delay="0.3s">
                     <div class="overflow-hidden" style="height: 300px !important;">
-                        <img class="img-fluid w-100 h-100" src="img/service-2.jpg" alt="Discussion group" style="object-fit: cover !important;">
+                        <img class="img-fluid w-100 h-100" src="img/service-2.jpg" alt="" style="object-fit: cover !important;">
                     </div>
                     <div class="d-flex align-items-center justify-content-between bg-light p-4">
-                        <h5 class="text-truncate me-3 mb-0">Depression Support</h5>
+                        <h5 class="text-truncate me-3 mb-0">Independent Retailers</h5>
                         <a class="btn btn-square btn-outline-primary border-2 border-white flex-shrink-0" href=""><i class="fa fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 service-item-top wow fadeInUp" data-wow-delay="0.5s">
                     <div class="overflow-hidden" style="height: 300px !important;">
-                        <img class="img-fluid w-100 h-100" src="img/service-3.jpg" alt="Walking in nature" style="object-fit: cover !important;">
+                        <img class="img-fluid w-100 h-100" src="img/service-3.jpg" alt="" style="object-fit: cover !important;">
                     </div>
                     <div class="d-flex align-items-center justify-content-between bg-light p-4">
-                        <h5 class="text-truncate me-3 mb-0">Benefits of Talking</h5>
+                        <h5 class="text-truncate me-3 mb-0">Bathrooms/En-suites</h5>
                         <a class="btn btn-square btn-outline-primary border-2 border-white flex-shrink-0" href=""><i class="fa fa-arrow-right"></i></a>
                     </div>
                 </div>
@@ -438,25 +557,25 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <h6 class="text-secondary text-uppercase">About Us</h6>
-                    <h1 class="mb-4">MENd: Supporting Men's Mental Health in Kensington & Chelsea, Hammersmith & Fulham</h1>
-                    <p class="mb-4">MENd is a Community Interest Company dedicated to men's mental health through free walk and talk sessions. Founded by a man who's faced his own struggles, we're creating a supportive community for men in Hammersmith and Fulham, Kensington and Chelsea. Our walks encourage open conversations on tough topics like suicide and depression, while enjoying fresh air and exercise. Currently a solo venture, we're growing one step at a time to break the silence and build resilience.</p>
-                    <p class="fw-medium text-primary"><i class="fa fa-check text-success me-3"></i>Peer-led walk and talk sessions</p>
-                    <p class="fw-medium text-primary"><i class="fa fa-check text-success me-3"></i>Free and confidential support</p>
-                    <p class="fw-medium text-primary"><i class="fa fa-check text-success me-3"></i>Weekly walks in local parks</p>
+                    <h1 class="mb-4">Trusted Local Plumbers Serving Kensington & Chelsea, Hammersmith & Fulham Since 1998</h1>
+                    <p class="mb-4">Since 1998, we've been the go-to local plumbers in Kensington and Chelsea, Hammersmith and Fulham, providing expert plumbing services to residents and independent retailers alike. Our certified team specializes in everything from emergency plumber repairs and boiler installations to drain unblocking and commercial plumbing solutions in West London. With a focus on reliable, affordable, and 24/7 service, we ensure minimal disruption for homes and businesses in Hammersmith, Fulham, Kensington, and Chelsea. Trust our experienced local plumbing experts for all your needs in these vibrant boroughs.</p>
+                    <p class="fw-medium text-primary"><i class="fa fa-check text-success me-3"></i>Residential & commercial plumbing</p>
+                    <p class="fw-medium text-primary"><i class="fa fa-check text-success me-3"></i>Quality services at affordable prices</p>
+                    <p class="fw-medium text-primary"><i class="fa fa-check text-success me-3"></i>Immediate 24/7 emergency services</p>
                     <div class="bg-primary d-flex align-items-center p-4 mt-5">
                         <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 60px; height: 60px;">
                             <i class="fa fa-phone-alt fa-2x text-primary"></i>
                         </div>
                         <div class="ms-3">
-                            <p class="fs-5 fw-medium mb-2 text-white">Get Support</p>
-                            <h3 class="m-0 text-secondary">0207 123 4567</h3>
+                            <p class="fs-5 fw-medium mb-2 text-white">Emergency 24/7</p>
+                            <h3 class="m-0 text-secondary">0207 371 3333</h3>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 pt-4" style="min-height: 500px;">
                     <div class="position-relative h-100 wow fadeInUp" data-wow-delay="0.5s">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/about-1.jpg" style="object-fit: cover; padding: 0 0 50px 100px;" alt="Founder walking">
-                        <img class="position-absolute start-0 bottom-0 img-fluid bg-white pt-2 pe-2 w-50 h-50" src="img/about-2.jpg" style="object-fit: cover;" alt="Group walk">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/about-1.jpg" style="object-fit: cover; padding: 0 0 50px 100px;" alt="">
+                        <img class="position-absolute start-0 bottom-0 img-fluid bg-white pt-2 pe-2 w-50 h-50" src="img/about-2.jpg" style="object-fit: cover;" alt="">
                     </div>
                 </div>
             </div>
@@ -470,22 +589,22 @@
                 <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
                     <i class="fa fa-check fa-2x text-white mb-3"></i>
                     <h2 class="text-white mb-2">Kensington</h2>
-                    <p class="text-white mb-0">Walk and talk sessions addressing men's suicide rates, with support for depression and isolation in Kensington.</p>
+                    <p class="text-white mb-0">Expert local plumbers offering commercial plumbing services in Kensington. From emergency repairs to boiler installations and drain unblocking.</p>
                 </div>
                 <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
                     <i class="fa fa-users-cog fa-2x text-white mb-3"></i>
                     <h2 class="text-white mb-2">Chelsea</h2>
-                    <p class="text-white mb-0">Building community through conversations that reduce stigma and promote emotional wellbeing in Chelsea.</p>
+                    <p class="text-white mb-0">Trusted plumbing solutions in Chelsea. 24/7 emergency plumbers, leak detection, and affordable commercial plumbing services.</p>
                 </div>
                 <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
                     <i class="fa fa-users fa-2x text-white mb-3"></i>
                     <h2 class="text-white mb-2">Hammersmith</h2>
-                    <p class="text-white mb-0">Peer support walks helping men recognize mental health symptoms early in Hammersmith.</p>
+                    <p class="text-white mb-0">Reliable local plumbers serving residents in Hammersmith. Specializing in fast drain cleaning, water heater repairs, and commercial plumbing maintenance.</p>
                 </div>
                 <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">
                     <i class="fa fa-wrench fa-2x text-white mb-3"></i>
                     <h2 class="text-white mb-2">Fulham</h2>
-                    <p class="text-white mb-0">Fostering resilience and connection via outdoor talks for men in Fulham, tackling loneliness head-on.</p>
+                    <p class="text-white mb-0">Professional plumbing services for local independent retailers in Fulham. Offering 24/7 emergency support, certified installations, and cost-effective plumbing repairs in West London.</p>
                 </div>
             </div>
         </div>
@@ -495,59 +614,59 @@
         <div class="row g-0">
             <div class="col-lg-3 d-none d-lg-flex">
                 <div class="d-flex align-items-center justify-content-center bg-primary w-100 h-100">
-                    <h1 class="display-3 text-white m-0" style="transform: rotate(-90deg);">one step at a time since 2025</h1>
+                    <h1 class="display-3 text-white m-0" style="transform: rotate(-90deg);">working with you since 1998</h1>
                 </div>
             </div>
             <div class="col-md-12 col-lg-9">
                 <div class="ms-lg-5 ps-lg-5">
                     <div class="text-center text-lg-start wow fadeInUp" data-wow-delay="0.1s">
-                        <h6 class="text-secondary text-uppercase">Our Sessions</h6>
-                        <h1 class="mb-5">Walk and Talk Topics for Men's Mental Health in West London</h1>
+                        <h6 class="text-secondary text-uppercase">Our Plumbing Services</h6>
+                        <h1 class="mb-5">Expert Local Plumbing Solutions for Residents & Businesses in Kensington, Chelsea, Hammersmith & Fulham</h1>
                     </div>
                     <div class="owl-carousel service-carousel position-relative wow fadeInUp" data-wow-delay="0.1s">
                         <div class="bg-light p-4">
                             <div class="d-flex align-items-center justify-content-center border border-5 border-white mb-4" style="width: 75px; height: 75px;">
-                                <i class="fa fa-heart fa-2x text-primary"></i>
+                                <i class="fa fa-water fa-2x text-primary"></i>
                             </div>
-                            <h4 class="mb-3">Suicide Awareness in Fulham</h4>
-                            <p>Men's suicide rate in the UK is 17.4 per 100,000, three times higher than women. Walks focus on prevention and support.</p>
-                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>75-80% of suicides are men</p>
-                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Highest rates in 45-49 age group</p>
-                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Early conversations save lives</p>
-                            <a href="/suicide-awareness-walks-fulham" class="btn bg-white text-primary w-100 mt-2" title="Suicide Awareness Walks in Fulham"><i class="text-secondary ms-2"></i></a>
+                            <h4 class="mb-3">Plumbing Services in Fulham</h4>
+                            <p>Emergency plumbing, drain unblocking, leak repairs, affordable plumbing, 24/7 plumber, resident plumbing in Fulham.</p>
+                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Emergency Plumber Fulham Residents</p>
+                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Affordable Plumbing Repairs Fulham</p>
+                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Certified Local Plumbers in Fulham</p>
+                            <a href="/plumbing-services-fulham-residents-emergency-drain-leak" class="btn bg-white text-primary w-100 mt-2" title="Expert Plumbing Services for Residents in Fulham, West London"><i class="text-secondary ms-2"></i></a>
                         </div>
                         <div class="bg-light p-4">
                             <div class="d-flex align-items-center justify-content-center border border-5 border-white mb-4" style="width: 75px; height: 75px;">
-                                <i class="fa fa-brain fa-2x text-primary"></i>
+                                <i class="fa fa-toilet fa-2x text-primary"></i>
                             </div>
-                            <h4 class="mb-3">Depression Support in Chelsea</h4>
-                            <p>One in eight men experience common mental health issues like depression. Sessions help break isolation.</p>
-                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Men less likely to seek help</p>
-                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>40% of men won't talk about it</p>
-                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Peer support builds resilience</p>
-                            <a href="/depression-support-walks-chelsea" class="btn bg-white text-primary w-100 mt-2" title="Depression Support Walks in Chelsea">Read More<i class="fa fa-arrow-right text-secondary ms-2"></i></a>
+                            <h4 class="mb-3">Bathrooms & En-Suites in Chelsea</h4>
+                            <p>Bathroom plumbing, en-suite installations, bathroom repairs, luxury plumbers, resident plumbing, en-suite plumbing in Chelsea.</p>
+                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Bathroom Installation Plumbers Chelsea</p>
+                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>En-Suite Repairs for Chelsea Homes</p>
+                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Local Bathroom Plumbing in Chelsea</p>
+                            <a href="/bathrooms-en-suites-installation-repairs-chelsea-residents" class="btn bg-white text-primary w-100 mt-2" title="Bathroom & En-Suite Plumbing Services for Residents in Chelsea">Read More<i class="fa fa-arrow-right text-secondary ms-2"></i></a>
                         </div>
                         <div class="bg-light p-4">
                             <div class="d-flex align-items-center justify-content-center border border-5 border-white mb-4" style="width: 75px; height: 75px;">
-                                <i class="fa fa-comments fa-2x text-primary"></i>
+                                <i class="fa fa-shower fa-2x text-primary"></i>
                             </div>
-                            <h4 class="mb-3">Why Talk in Hammersmith</h4>
-                            <p>Talking reduces loneliness and stigma. Improves emotional wellbeing.</p>
-                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Normalizes seeking support</p>
-                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Helps recognize symptoms early</p>
-                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Fosters community bonds</p>
-                            <a href="/why-talk-walks-hammersmith" class="btn bg-white text-primary w-100 mt-2" title="Why Talk Walks in Hammersmith">Read More<i class="fa fa-arrow-right text-secondary ms-2"></i></a>
+                            <h4 class="mb-3">Retailers in Hammersmith</h4>
+                            <p>Commercial plumbing, retailers plumbing, emergency repairs, drain cleaning, affordable plumbing.</p>
+                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Commercial Plumber Hammersmith Retailers</p>
+                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Emergency Plumbing for Independent Shops</p>
+                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Local Retail Plumbing Services Hammersmith</p>
+                            <a href="/commercial-plumbing-independent-retailers-hammersmith" class="btn bg-white text-primary w-100 mt-2" title="Plumbing Services for Independent Retailers in Hammersmith">Read More<i class="fa fa-arrow-right text-secondary ms-2"></i></a>
                         </div>
                         <div class="bg-light p-4">
                             <div class="d-flex align-items-center justify-content-center border border-5 border-white mb-4" style="width: 75px; height: 75px;">
-                                <i class="fa fa-walking fa-2x text-primary"></i>
+                                <i class="fa fa-tint fa-2x text-primary"></i>
                             </div>
-                            <h4 class="mb-3">Walking Benefits in Chelsea</h4>
-                            <p>Walking therapy relieves stress and depression. Boosts mood like intense exercise.</p>
-                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Reduces anxiety and burnout</p>
-                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Enhances engagement for men</p>
-                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Builds informal support networks</p>
-                            <a href="/walking-therapy-benefits-chelsea" class="btn bg-white text-primary w-100 mt-2" title="Walking Therapy Benefits in Chelsea">Read More<i class="fa fa-arrow-right text-secondary ms-2"></i></a>
+                            <h4 class="mb-3">Heating Services in Chelsea</h4>
+                            <p>Heating plumbers, boiler installation, central heating repairs, radiator fixes, efficient heating, resident heating in Chelsea.</p>
+                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Boiler Repair & Installation Chelsea</p>
+                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Central Heating Services for Homes</p>
+                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Local Heating Plumbers in Chelsea</p>
+                            <a href="/heating-boiler-installation-repairs-chelsea-residents" class="btn bg-white text-primary w-100 mt-2" title="Heating & Boiler Services for Residents in Chelsea, West London">Read More<i class="fa fa-arrow-right text-secondary ms-2"></i></a>
                         </div>
                     </div>
                 </div>
@@ -558,15 +677,15 @@
     <!-- Booking Start -->
     <div class="container-fluid my-5 px-0">
         <div class="video wow fadeInUp" data-wow-delay="0.1s">
-            <h1 class="text-white mb-4">MENd Walks</h1>
-            <h3 class="text-white mb-0">Every Week in Local Parks</h3>
+            <h1 class="text-white mb-4">Chelsea Plumbers</h1>
+            <h3 class="text-white mb-0">24 Hours 7 Days a Week</h3>
         </div>
         <div class="container position-relative wow fadeInUp" data-wow-delay="0.1s" style="margin-top: -6rem;">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="bg-light text-center p-5">
-                        <h1 class="mb-4" id="enquiry-form">Join a Walk</h1>
-                        <form action="mailto:info@mendwalks.org" method="post" enctype="text/plain">
+                        <h1 class="mb-4">General Enquiry</h1>
+                        <form action="mailto:info@chelsea.biz" method="post" enctype="text/plain">
                             <div class="row g-3">
                                 <div class="col-12 col-sm-6">
                                     <input type="text" name="name" class="form-control border-0" placeholder="Your Name" style="height: 55px;">
@@ -575,7 +694,7 @@
                                     <input type="email" name="email" class="form-control border-0" placeholder="Your Email" style="height: 55px;">
                                 </div>
                                 <div class="col-12">
-                                    <textarea name="enquiry" class="form-control border-0" placeholder="Tell us about yourself or your interest in joining"></textarea>
+                                    <textarea name="enquiry" class="form-control border-0" placeholder="Your Enquiry"></textarea>
                                 </div>
                                 <div class="col-12">
                                     <button class="btn btn-primary w-100 py-3" type="submit">Send Enquiry</button>
@@ -593,12 +712,12 @@
         <div class="container">
             <div class="text-center">
                 <h6 class="text-secondary text-uppercase">Testimonial</h6>
-                <h1 class="mb-5">What Our Walkers Say</h1>
+                <h1 class="mb-5">Our Clients Say!</h1>
             </div>
             <div class="owl-carousel testimonial-carousel position-relative wow fadeInUp" data-wow-delay="0.1s">
                 <div class="testimonial-item text-center">
                     <div class="testimonial-text bg-light text-center p-4 mb-4">
-                        <p class="mb-0">"These walks in Kensington have been a game-changer. Finally talking about my struggles with depression feels normal and supportive."</p>
+                        <p class="mb-0">"Fantastic local plumber in Kensington! They fixed my drain unblocking quickly and affordably. Highly recommend for all plumbing services in Kensington and Chelsea."</p>
                     </div>
                     <div class="mb-2">
                         <small class="fa fa-star text-secondary"></small>
@@ -608,11 +727,11 @@
                         <small class="fa fa-star text-secondary"></small>
                     </div>
                     <h5 class="mb-1">John Smith</h5>
-                    <p class="m-0">Walker, Kensington</p>
+                    <p class="m-0">Resident, Kensington</p>
                 </div>
                 <div class="testimonial-item text-center">
                     <div class="testimonial-text bg-light text-center p-4 mb-4">
-                        <p class="mb-0">"The Chelsea sessions helped me open up about suicidal thoughts. The walking format made it easier – highly recommend."</p>
+                        <p class="mb-0">"Reliable 24/7 emergency plumber in Chelsea. Their boiler installation was top-notch and professional. Best plumbing services for homes in Chelsea and West London."</p>
                     </div>
                     <div class="mb-2">
                         <small class="fa fa-star text-secondary"></small>
@@ -621,12 +740,12 @@
                         <small class="fa fa-star text-secondary"></small>
                         <small class="fa fa-star text-secondary"></small>
                     </div>
-                    <h5 class="mb-1">David Wilson</h5>
-                    <p class="m-0">Participant, Chelsea</p>
+                    <h5 class="mb-1">Sarah Johnson</h5>
+                    <p class="m-0">Homeowner, Chelsea</p>
                 </div>
                 <div class="testimonial-item text-center">
                     <div class="testimonial-text bg-light text-center p-4 mb-4">
-                        <p class="mb-0">"Hammersmith walks reduced my isolation. Connecting with other men who've been through it has built real strength."</p>
+                        <p class="mb-0">"Expert commercial plumbing for my shop in Hammersmith. Fast leak detection and repair minimized downtime. Trusted local plumbers in Hammersmith and Fulham."</p>
                     </div>
                     <div class="mb-2">
                         <small class="fa fa-star text-secondary"></small>
@@ -635,12 +754,12 @@
                         <small class="fa fa-star text-secondary"></small>
                         <small class="fa fa-star text-secondary"></small>
                     </div>
-                    <h5 class="mb-1">Mike Harris</h5>
-                    <p class="m-0">Member, Hammersmith</p>
+                    <h5 class="mb-1">Michael Brown</h5>
+                    <p class="m-0">Shop Owner, Hammersmith</p>
                 </div>
                 <div class="testimonial-item text-center">
                     <div class="testimonial-text bg-light text-center p-4 mb-4">
-                        <p class="mb-0">"Fulham group talks on mental health stigma were eye-opening. Walking together makes vulnerability feel like power."</p>
+                        <p class="mb-0">"Affordable and efficient plumbing repairs in Fulham. From water heater installation to general maintenance, they're the go-to plumbers for residents in Fulham."</p>
                     </div>
                     <div class="mb-2">
                         <small class="fa fa-star text-secondary"></small>
@@ -649,8 +768,8 @@
                         <small class="fa fa-star text-secondary"></small>
                         <small class="fa fa-star text-secondary"></small>
                     </div>
-                    <h5 class="mb-1">Alex Turner</h5>
-                    <p class="m-0">Walker, Fulham</p>
+                    <h5 class="mb-1">Emily Davis</h5>
+                    <p class="m-0">Resident, Fulham</p>
                 </div>
             </div>
         </div>
@@ -661,10 +780,10 @@
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Contact MENd in Kensington, Chelsea, Hammersmith & Fulham</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Bishops Park, London SW6 3JY - Serving West London Men</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0207 123 4567 - Walk and Talk Support</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@mendwalks.org - Community Sessions for Mental Health</p>
+                    <h4 class="text-light mb-4">Contact Local Plumbers in Kensington, Chelsea, Hammersmith & Fulham</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>33 Gunterstone Rd, London W14 9BP - Serving West London Communities</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0207 371 3333 - 24/7 Emergency Plumber in Kensington & Chelsea</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@chelsea.biz - Plumbing Services for Hammersmith & Fulham Residents and Retailers</p>
                     <div class="d-flex pt-2">
                         <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
@@ -673,25 +792,25 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Session Times - Weekly Walks in West London</h4>
-                    <h6 class="text-light">Saturdays:</h6>
-                    <p class="mb-4">10am - 12pm in Local Parks - Free Walk and Talk for Men's Mental Health in Kensington, Chelsea, Hammersmith & Fulham</p>
-                    <h6 class="text-light">Other Days:</h6>
-                    <p class="mb-0">Flexible Group Walks - Peer Support for Depression, Suicide Prevention, and Wellbeing</p>
+                    <h4 class="text-light mb-4">Opening Hours - 24/7 Local Plumbing in West London</h4>
+                    <h6 class="text-light">Monday - Sunday:</h6>
+                    <p class="mb-4">Open 24 Hours - Emergency Plumber, Boiler Installations, Drain Unblocking Available in Kensington, Chelsea, Hammersmith & Fulham</p>
+                    <h6 class="text-light">Holidays:</h6>
+                    <p class="mb-0">Open 24 Hours - Reliable Family-Run Plumbing Services for West London Residents and Independent Retailers</p>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Our Mental Health Focus Areas</h4>
-                    <p class="btn btn-link">Suicide Prevention Kensington & Chelsea</p>
-                    <p class="btn btn-link">Depression Support Hammersmith & Fulham</p>
-                    <p class="btn btn-link">Talking Benefits West London</p>
-                    <p class="btn btn-link">Walking Therapy Kensington</p>
-                    <p class="btn btn-link">Community Building Chelsea</p>
-                    <p class="btn btn-link">Peer Support Hammersmith</p>
-                    <p class="btn btn-link">Resilience Walks Fulham</p>
+                    <h4 class="text-light mb-4">Our Local Plumbing Services in Kensington, Chelsea, Hammersmith & Fulham</h4>
+                    <p class="btn btn-link">Emergency Plumber Repairs Kensington & Chelsea</p>
+                    <p class="btn btn-link">Boiler Installations Hammersmith & Fulham</p>
+                    <p class="btn btn-link">Drain Unblocking West London</p>
+                    <p class="btn btn-link">Bathrooms En-Suites Installations Kensington</p>
+                    <p class="btn btn-link">Kitchen Installations Chelsea</p>
+                    <p class="btn btn-link">Commercial Plumbing for Independent Retailers Hammersmith</p>
+                    <p class="btn btn-link">Property Renovations Fulham</p>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Newsletter - Mental Health Tips for Men</h4>
-                    <p>Subscribe for insights on suicide stats, depression management, benefits of talking, and walking therapy. Stay connected with MENd's community efforts in Kensington, Chelsea, Hammersmith & Fulham.</p>
+                    <h4 class="text-light mb-4">Newsletter - Local Plumbing Tips for Kensington, Chelsea, Hammersmith & Fulham</h4>
+                    <p>Subscribe for expert tips on emergency plumber repairs, boiler installations, drain unblocking, bathrooms en-suites, kitchen installations, property renovations, and commercial plumbing services in West London. Stay updated with our family-run local plumbers serving residents and independent retailers in Kensington, Chelsea, Hammersmith & Fulham.</p>
                     <div class="position-relative mx-auto" style="max-width: 400px;">
                         <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
                         <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
@@ -700,10 +819,10 @@
             </div>
             <div class="row justify-content-center mt-4">
                 <div class="col-md-5">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.1691752015104!2d-0.21142502448533299!3d51.49176291184696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760fb4e226f73d%3A0xb8c7d1e74c866d1b!2sBishops%20Park%2C%20London!5e0!3m2!1sen!2suk!4v1752743406988!5m2!1sen!2suk" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.1691752015104!2d-0.21142502448533299!3d51.49176291184696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760fb4e226f73d%3A0xb8c7d1e74c866d1b!2sKensington%20plumbing%20services!5e0!3m2!1sen!2suk!4v1752743406988!5m2!1sen!2suk" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="col-md-5">
-                    <!-- Placeholder for social widget -->
+                    <iframe src='https://widgets.sociablekit.com/google-business-profile/iframe/25579254' frameborder='0' width='100%' height='300'></iframe>
                 </div>
             </div>
         </div>
@@ -711,463 +830,7 @@
             <div class="copyright">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        © <a class="border-bottom" href="#">MENd</a>, All Rights Reserved. Community Interest Company Supporting Men's Mental Health in Kensington, Chelsea, Hammersmith & Fulham - Walk and Talk Sessions for Suicide Prevention, Depression, and Wellbeing Since 2025.
-                    </div>
-                    <div class="col-md-6 text-center text-md-end">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Footer End -->
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/tempusdominus/js/moment.min.js"></script>
-    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
-    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
-</body>
-</html>        "streetAddress": "Bishops Park, Fulham",
-        "addressLocality": "London",
-        "postalCode": "SW6 3JY",
-        "addressCountry": "GB"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 51.475,
-        "longitude": -0.225
-      },
-      "url": "https://www.mendwalks.org",
-      "sameAs": ["https://facebook.com/mendwalks", "https://twitter.com/mendwalks"]
-    }
-    </script>
-</head>
-<body>
-    <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Loading...</span>
-        </div>
-    </div>
-    <!-- Spinner End -->
-    <!-- Topbar Start -->
-    <div class="container-fluid bg-light d-none d-lg-block">
-        <div class="row align-items-center top-bar">
-            <div class="col-lg-3 col-md-12 text-center text-lg-start">
-                <a href="" class="navbar-brand m-0 p-0">
-                    <h2 class="text-primary m-0">MENd</h2>
-                </a>
-            </div>
-            <div class="col-lg-9 col-md-12 text-end">
-                <div class="h-100 d-inline-flex align-items-center me-4">
-                    <i class="fa fa-map-marker-alt text-primary me-2"></i>
-                    <p class="m-0">Bishops Park, London SW6 3JY</p>
-                </div>
-                <div class="h-100 d-inline-flex align-items-center me-4">
-                    <i class="far fa-envelope-open text-primary me-2"></i>
-                    <p class="m-0">info@mendwalks.org</p>
-                </div>
-                <div class="h-100 d-inline-flex align-items-center">
-                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-sm-square bg-white text-primary me-0" href=""><i class="fab fa-instagram"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Topbar End -->
-    <!-- Navbar Start -->
-    <div class="container-fluid nav-bar bg-light">
-        <nav class="navbar navbar-expand-lg navbar-light bg-white p-3 py-lg-0 px-lg-4">
-            <a href="" class="navbar-brand d-flex align-items-center m-0 p-0 d-lg-none">
-                <h1 class="text-primary m-0">MENd</h1>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                <span class="fa fa-bars"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav me-auto">
-                    <a href="index.html" class="nav-item nav-link active">Home</a>
-                    <a href="about.html" class="nav-item nav-link">About</a>
-                    <a href="walks.html" class="nav-item nav-link">Walks</a>
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
-                </div>
-                <div class="mt-4 mt-lg-0 me-lg-n4 py-3 px-4 bg-primary d-flex align-items-center">
-                    <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 45px; height: 45px;">
-                        <i class="fa fa-phone-alt text-primary"></i>
-                    </div>
-                    <div class="ms-3">
-                        <p class="mb-1 text-white">Contact Us</p>
-                        <h5 class="m-0 text-secondary">0207 123 4567</h5>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </div>
-    <!-- Navbar End -->
-    <!-- Carousel Start -->
-    <div class="container-fluid p-0 mb-5">
-        <div class="owl-carousel header-carousel position-relative">
-            <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/carousel-1.jpg" alt="Group of men walking in park">
-                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .4);">
-                    <div class="container">
-                        <div class="row justify-content-start">
-                            <div class="col-10 col-lg-8">
-                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Supportive Walks for Men's Mental Health</h5>
-                                <h1 class="display-3 text-white animated slideInDown mb-4">Kensington, Chelsea, Hammersmith & Fulham</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Join MENd for free walk and talk sessions tackling men's mental health. From suicide prevention to depression support, our community builds strength through open conversations in West London parks. A safe space for men who've suffered to support those suffering.</p>
-                                <a href="tel:02071234567" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft" title="Join a Walk and Talk Session">Join a Walk Now</a>
-                                <a href="#enquiry-form" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight" title="Get Involved with MENd">Get Involved</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/carousel-2.jpg" alt="Men talking while walking">
-                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(0, 0, 0, .4);">
-                    <div class="container">
-                        <div class="row justify-content-start">
-                            <div class="col-10 col-lg-8">
-                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Community Walks for Mental Wellbeing</h5>
-                                <h1 class="display-3 text-white animated slideInDown mb-4">Breaking the Silence on Men's Mental Health</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-2">MENd offers peer-led walks to combat isolation, reduce stigma, and foster resilience. Inspired by those who've overcome challenges, our sessions in local parks provide informal support, exercise, and connection for men in our community.</p>
-                                <a href="tel:02071234567" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft" title="Contact MENd for Support">Contact Us</a>
-                                <a href="#enquiry-form" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight" title="Learn More About Our Walks">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Carousel End -->
-    <!-- Service Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6 service-item-top wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="overflow-hidden" style="height: 300px !important;">
-                        <img class="img-fluid w-100 h-100" src="img/service-1.jpg" alt="Men walking in group" style="object-fit: cover !important;">
-                    </div>
-                    <div class="d-flex align-items-center justify-content-between bg-light p-4">
-                        <h5 class="text-truncate me-3 mb-0">Suicide Prevention</h5>
-                        <a class="btn btn-square btn-outline-primary border-2 border-white flex-shrink-0" href=""><i class="fa fa-arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 service-item-top wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="overflow-hidden" style="height: 300px !important;">
-                        <img class="img-fluid w-100 h-100" src="img/service-2.jpg" alt="Discussion group" style="object-fit: cover !important;">
-                    </div>
-                    <div class="d-flex align-items-center justify-content-between bg-light p-4">
-                        <h5 class="text-truncate me-3 mb-0">Depression Support</h5>
-                        <a class="btn btn-square btn-outline-primary border-2 border-white flex-shrink-0" href=""><i class="fa fa-arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 service-item-top wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="overflow-hidden" style="height: 300px !important;">
-                        <img class="img-fluid w-100 h-100" src="img/service-3.jpg" alt="Walking in nature" style="object-fit: cover !important;">
-                    </div>
-                    <div class="d-flex align-items-center justify-content-between bg-light p-4">
-                        <h5 class="text-truncate me-3 mb-0">Benefits of Talking</h5>
-                        <a class="btn btn-square btn-outline-primary border-2 border-white flex-shrink-0" href=""><i class="fa fa-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Service End -->
-    <!-- About Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <h6 class="text-secondary text-uppercase">About Us</h6>
-                    <h1 class="mb-4">MENd: Supporting Men's Mental Health in Kensington & Chelsea, Hammersmith & Fulham</h1>
-                    <p class="mb-4">MENd is a Community Interest Company dedicated to men's mental health through free walk and talk sessions. Founded by a man who's faced his own struggles, we're creating a supportive community for men in Hammersmith and Fulham, Kensington and Chelsea. Our walks encourage open conversations on tough topics like suicide and depression, while enjoying fresh air and exercise. Currently a solo venture, we're growing one step at a time to break the silence and build resilience.</p>
-                    <p class="fw-medium text-primary"><i class="fa fa-check text-success me-3"></i>Peer-led walk and talk sessions</p>
-                    <p class="fw-medium text-primary"><i class="fa fa-check text-success me-3"></i>Free and confidential support</p>
-                    <p class="fw-medium text-primary"><i class="fa fa-check text-success me-3"></i>Weekly walks in local parks</p>
-                    <div class="bg-primary d-flex align-items-center p-4 mt-5">
-                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 60px; height: 60px;">
-                            <i class="fa fa-phone-alt fa-2x text-primary"></i>
-                        </div>
-                        <div class="ms-3">
-                            <p class="fs-5 fw-medium mb-2 text-white">Get Support</p>
-                            <h3 class="m-0 text-secondary">0207 123 4567</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 pt-4" style="min-height: 500px;">
-                    <div class="position-relative h-100 wow fadeInUp" data-wow-delay="0.5s">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/about-1.jpg" style="object-fit: cover; padding: 0 0 50px 100px;" alt="Founder walking">
-                        <img class="position-absolute start-0 bottom-0 img-fluid bg-white pt-2 pe-2 w-50 h-50" src="img/about-2.jpg" style="object-fit: cover;" alt="Group walk">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- About End -->
-    <!-- Fact Start -->
-    <div class="container-fluid fact bg-dark my-5 py-5">
-        <div class="container">
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
-                    <i class="fa fa-check fa-2x text-white mb-3"></i>
-                    <h2 class="text-white mb-2">Kensington</h2>
-                    <p class="text-white mb-0">Walk and talk sessions addressing men's suicide rates, with support for depression and isolation in Kensington.</p>
-                </div>
-                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
-                    <i class="fa fa-users-cog fa-2x text-white mb-3"></i>
-                    <h2 class="text-white mb-2">Chelsea</h2>
-                    <p class="text-white mb-0">Building community through conversations that reduce stigma and promote emotional wellbeing in Chelsea.</p>
-                </div>
-                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
-                    <i class="fa fa-users fa-2x text-white mb-3"></i>
-                    <h2 class="text-white mb-2">Hammersmith</h2>
-                    <p class="text-white mb-0">Peer support walks helping men recognize mental health symptoms early in Hammersmith.</p>
-                </div>
-                <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">
-                    <i class="fa fa-wrench fa-2x text-white mb-3"></i>
-                    <h2 class="text-white mb-2">Fulham</h2>
-                    <p class="text-white mb-0">Fostering resilience and connection via outdoor talks for men in Fulham, tackling loneliness head-on.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Fact End -->
-    <div class="container-fluid py-5 px-4 px-lg-0">
-        <div class="row g-0">
-            <div class="col-lg-3 d-none d-lg-flex">
-                <div class="d-flex align-items-center justify-content-center bg-primary w-100 h-100">
-                    <h1 class="display-3 text-white m-0" style="transform: rotate(-90deg);">one step at a time since 2025</h1>
-                </div>
-            </div>
-            <div class="col-md-12 col-lg-9">
-                <div class="ms-lg-5 ps-lg-5">
-                    <div class="text-center text-lg-start wow fadeInUp" data-wow-delay="0.1s">
-                        <h6 class="text-secondary text-uppercase">Our Sessions</h6>
-                        <h1 class="mb-5">Walk and Talk Topics for Men's Mental Health in West London</h1>
-                    </div>
-                    <div class="owl-carousel service-carousel position-relative wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="bg-light p-4">
-                            <div class="d-flex align-items-center justify-content-center border border-5 border-white mb-4" style="width: 75px; height: 75px;">
-                                <i class="fa fa-heart fa-2x text-primary"></i>
-                            </div>
-                            <h4 class="mb-3">Suicide Awareness in Fulham</h4>
-                            <p>Men's suicide rate in the UK is 17.4 per 100,000, three times higher than women.<grok-card data-id="5a66d6" data-type="citation_card"></grok-card> Walks focus on prevention and support.</p>
-                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>75-80% of suicides are men<grok-card data-id="372f9b" data-type="citation_card"></grok-card></p>
-                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Highest rates in 45-49 age group<grok-card data-id="07b209" data-type="citation_card"></grok-card></p>
-                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Early conversations save lives</p>
-                            <a href="/suicide-awareness-walks-fulham" class="btn bg-white text-primary w-100 mt-2" title="Suicide Awareness Walks in Fulham"><i class="text-secondary ms-2"></i></a>
-                        </div>
-                        <div class="bg-light p-4">
-                            <div class="d-flex align-items-center justify-content-center border border-5 border-white mb-4" style="width: 75px; height: 75px;">
-                                <i class="fa fa-brain fa-2x text-primary"></i>
-                            </div>
-                            <h4 class="mb-3">Depression Support in Chelsea</h4>
-                            <p>One in eight men experience common mental health issues like depression.<grok-card data-id="aad1df" data-type="citation_card"></grok-card> Sessions help break isolation.</p>
-                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Men less likely to seek help<grok-card data-id="2aece5" data-type="citation_card"></grok-card></p>
-                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>40% of men won't talk about it<grok-card data-id="3a121c" data-type="citation_card"></grok-card></p>
-                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Peer support builds resilience</p>
-                            <a href="/depression-support-walks-chelsea" class="btn bg-white text-primary w-100 mt-2" title="Depression Support Walks in Chelsea">Read More<i class="fa fa-arrow-right text-secondary ms-2"></i></a>
-                        </div>
-                        <div class="bg-light p-4">
-                            <div class="d-flex align-items-center justify-content-center border border-5 border-white mb-4" style="width: 75px; height: 75px;">
-                                <i class="fa fa-comments fa-2x text-primary"></i>
-                            </div>
-                            <h4 class="mb-3">Why Talk in Hammersmith</h4>
-                            <p>Talking reduces loneliness and stigma.<grok-card data-id="3bbc97" data-type="citation_card"></grok-card> Improves emotional wellbeing.<grok-card data-id="20ac4a" data-type="citation_card"></grok-card></p>
-                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Normalizes seeking support<grok-card data-id="71d493" data-type="citation_card"></grok-card></p>
-                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Helps recognize symptoms early<grok-card data-id="21ec0d" data-type="citation_card"></grok-card></p>
-                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Fosters community bonds</p>
-                            <a href="/why-talk-walks-hammersmith" class="btn bg-white text-primary w-100 mt-2" title="Why Talk Walks in Hammersmith">Read More<i class="fa fa-arrow-right text-secondary ms-2"></i></a>
-                        </div>
-                        <div class="bg-light p-4">
-                            <div class="d-flex align-items-center justify-content-center border border-5 border-white mb-4" style="width: 75px; height: 75px;">
-                                <i class="fa fa-walking fa-2x text-primary"></i>
-                            </div>
-                            <h4 class="mb-3">Walking Benefits in Chelsea</h4>
-                            <p>Walking therapy relieves stress and depression.<grok-card data-id="626eff" data-type="citation_card"></grok-card> Boosts mood like intense exercise.<grok-card data-id="f39c2d" data-type="citation_card"></grok-card></p>
-                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Reduces anxiety and burnout<grok-card data-id="9543fe" data-type="citation_card"></grok-card></p>
-                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Enhances engagement for men<grok-card data-id="162d02" data-type="citation_card"></grok-card></p>
-                            <p class="text-primary fw-medium"><i class="fa fa-check text-success me-2"></i>Builds informal support networks</p>
-                            <a href="/walking-therapy-benefits-chelsea" class="btn bg-white text-primary w-100 mt-2" title="Walking Therapy Benefits in Chelsea">Read More<i class="fa fa-arrow-right text-secondary ms-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Service End -->
-    <!-- Booking Start -->
-    <div class="container-fluid my-5 px-0">
-        <div class="video wow fadeInUp" data-wow-delay="0.1s">
-            <h1 class="text-white mb-4">MENd Walks</h1>
-            <h3 class="text-white mb-0">Every Week in Local Parks</h3>
-        </div>
-        <div class="container position-relative wow fadeInUp" data-wow-delay="0.1s" style="margin-top: -6rem;">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="bg-light text-center p-5">
-                        <h1 class="mb-4" id="enquiry-form">Join a Walk</h1>
-                        <form action="mailto:info@mendwalks.org" method="post" enctype="text/plain">
-                            <div class="row g-3">
-                                <div class="col-12 col-sm-6">
-                                    <input type="text" name="name" class="form-control border-0" placeholder="Your Name" style="height: 55px;">
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <input type="email" name="email" class="form-control border-0" placeholder="Your Email" style="height: 55px;">
-                                </div>
-                                <div class="col-12">
-                                    <textarea name="enquiry" class="form-control border-0" placeholder="Tell us about yourself or your interest in joining"></textarea>
-                                </div>
-                                <div class="col-12">
-                                    <button class="btn btn-primary w-100 py-3" type="submit">Send Enquiry</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Booking End -->
-    <!-- Testimonial Start -->
-    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container">
-            <div class="text-center">
-                <h6 class="text-secondary text-uppercase">Testimonial</h6>
-                <h1 class="mb-5">What Our Walkers Say</h1>
-            </div>
-            <div class="owl-carousel testimonial-carousel position-relative wow fadeInUp" data-wow-delay="0.1s">
-                <div class="testimonial-item text-center">
-                    <div class="testimonial-text bg-light text-center p-4 mb-4">
-                        <p class="mb-0">"These walks in Kensington have been a game-changer. Finally talking about my struggles with depression feels normal and supportive."</p>
-                    </div>
-                    <div class="mb-2">
-                        <small class="fa fa-star text-secondary"></small>
-                        <small class="fa fa-star text-secondary"></small>
-                        <small class="fa fa-star text-secondary"></small>
-                        <small class="fa fa-star text-secondary"></small>
-                        <small class="fa fa-star text-secondary"></small>
-                    </div>
-                    <h5 class="mb-1">John Smith</h5>
-                    <p class="m-0">Walker, Kensington</p>
-                </div>
-                <div class="testimonial-item text-center">
-                    <div class="testimonial-text bg-light text-center p-4 mb-4">
-                        <p class="mb-0">"The Chelsea sessions helped me open up about suicidal thoughts. The walking format made it easier – highly recommend."</p>
-                    </div>
-                    <div class="mb-2">
-                        <small class="fa fa-star text-secondary"></small>
-                        <small class="fa fa-star text-secondary"></small>
-                        <small class="fa fa-star text-secondary"></small>
-                        <small class="fa fa-star text-secondary"></small>
-                        <small class="fa fa-star text-secondary"></small>
-                    </div>
-                    <h5 class="mb-1">David Wilson</h5>
-                    <p class="m-0">Participant, Chelsea</p>
-                </div>
-                <div class="testimonial-item text-center">
-                    <div class="testimonial-text bg-light text-center p-4 mb-4">
-                        <p class="mb-0">"Hammersmith walks reduced my isolation. Connecting with other men who've been through it has built real strength."</p>
-                    </div>
-                    <div class="mb-2">
-                        <small class="fa fa-star text-secondary"></small>
-                        <small class="fa fa-star text-secondary"></small>
-                        <small class="fa fa-star text-secondary"></small>
-                        <small class="fa fa-star text-secondary"></small>
-                        <small class="fa fa-star text-secondary"></small>
-                    </div>
-                    <h5 class="mb-1">Mike Harris</h5>
-                    <p class="m-0">Member, Hammersmith</p>
-                </div>
-                <div class="testimonial-item text-center">
-                    <div class="testimonial-text bg-light text-center p-4 mb-4">
-                        <p class="mb-0">"Fulham group talks on mental health stigma were eye-opening. Walking together makes vulnerability feel like power."</p>
-                    </div>
-                    <div class="mb-2">
-                        <small class="fa fa-star text-secondary"></small>
-                        <small class="fa fa-star text-secondary"></small>
-                        <small class="fa fa-star text-secondary"></small>
-                        <small class="fa fa-star text-secondary"></small>
-                        <small class="fa fa-star text-secondary"></small>
-                    </div>
-                    <h5 class="mb-1">Alex Turner</h5>
-                    <p class="m-0">Walker, Fulham</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Testimonial End -->
-    <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Contact MENd in Kensington, Chelsea, Hammersmith & Fulham</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Bishops Park, London SW6 3JY - Serving West London Men</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0207 123 4567 - Walk and Talk Support</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@mendwalks.org - Community Sessions for Mental Health</p>
-                    <div class="d-flex pt-2">
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Session Times - Weekly Walks in West London</h4>
-                    <h6 class="text-light">Saturdays:</h6>
-                    <p class="mb-4">10am - 12pm in Local Parks - Free Walk and Talk for Men's Mental Health in Kensington, Chelsea, Hammersmith & Fulham</p>
-                    <h6 class="text-light">Other Days:</h6>
-                    <p class="mb-0">Flexible Group Walks - Peer Support for Depression, Suicide Prevention, and Wellbeing</p>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Our Mental Health Focus Areas</h4>
-                    <p class="btn btn-link">Suicide Prevention Kensington & Chelsea</p>
-                    <p class="btn btn-link">Depression Support Hammersmith & Fulham</p>
-                    <p class="btn btn-link">Talking Benefits West London</p>
-                    <p class="btn btn-link">Walking Therapy Kensington</p>
-                    <p class="btn btn-link">Community Building Chelsea</p>
-                    <p class="btn btn-link">Peer Support Hammersmith</p>
-                    <p class="btn btn-link">Resilience Walks Fulham</p>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Newsletter - Mental Health Tips for Men</h4>
-                    <p>Subscribe for insights on suicide stats, depression management, benefits of talking, and walking therapy. Stay connected with MENd's community efforts in Kensington, Chelsea, Hammersmith & Fulham.</p>
-                    <div class="position-relative mx-auto" style="max-width: 400px;">
-                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center mt-4">
-                <div class="col-md-5">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.1691752015104!2d-0.21142502448533299!3d51.49176291184696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760fb4e226f73d%3A0xb8c7d1e74c866d1b!2sBishops%20Park%2C%20London!5e0!3m2!1sen!2suk!4v1752743406988!5m2!1sen!2suk" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-                <div class="col-md-5">
-                    <!-- Placeholder for social widget -->
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="copyright">
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        © <a class="border-bottom" href="#">MENd</a>, All Rights Reserved. Community Interest Company Supporting Men's Mental Health in Kensington, Chelsea, Hammersmith & Fulham - Walk and Talk Sessions for Suicide Prevention, Depression, and Wellbeing Since 2025.
+                        © <a class="border-bottom" href="#">Chelsea Plumbers</a>, All Rights Reserved. Family-Run Local Plumbers in Kensington, Chelsea, Hammersmith & Fulham - Emergency Repairs, Boiler Installations, Drain Unblocking, Bathrooms En-Suites, Kitchen Installations, Property Renovations, Commercial Plumbing Services in West London Since 1998.
                     </div>
                     <div class="col-md-6 text-center text-md-end">
                     </div>
@@ -1193,6 +856,16 @@
     <script src="js/main.js"></script>
 </body>
 </html>
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
+
+
+
+
+
 
 
 
